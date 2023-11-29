@@ -15,7 +15,9 @@ struct ContentView: View {
         
         VStack {
             HeaderView()
-            Spacer()
+            
+            
+            
             StatisticsView()
         }
         .padding()

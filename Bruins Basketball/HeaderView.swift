@@ -21,6 +21,8 @@ struct HeaderView: View {
                 .frame(width: 50, height: 50)
                 .aspectRatio(contentMode: .fit)
             
+            
+            
         }
         .padding()
 
