@@ -16,8 +16,6 @@ struct ContentView: View {
         VStack {
             HeaderView()
             
-            
-            
             StatisticsView()
         }
         .padding()

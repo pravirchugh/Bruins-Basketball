@@ -4,12 +4,14 @@ struct StatisticsView: View {
     
     var headerTextColor = Color(red: 1, green: 0.82, blue: 0)
     
+    @State var selectedButton: Int? = 1
+    
     func showGames() {
-        
+        selectedButton = 1
     }
     
     func showScores() {
-        
+        selectedButton = 2
     }
     
     var body: some View {
@@ -31,8 +33,13 @@ struct StatisticsView: View {
             .padding(.bottom, 40)
             
             
-            Text("Main Text - will alternate between upcoming games and top scoring players when the respective button is clicked.")
-                .foregroundColor(headerTextColor)
+            if (selectedButton == 1){
+                Text("Upcoming Games")
+                    .foregroundColor(headerTextColor)
+            } else {
+                Text("Top Scoring Players")
+                    .foregroundColor(headerTextColor)
+            }
             
             Spacer()
             // content from web scraper
