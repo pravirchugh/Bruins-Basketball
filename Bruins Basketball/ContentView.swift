@@ -8,14 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var headerTextColor = Color(red: 1, green: 0.82, blue: 0)
+    var backgroundColor = Color(red: 0.102, green: 0.118, blue: 0.192)
+    
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+          
+            
+            HStack {
+                Spacer()
+                Text("UCLA Men's Basketball")
+                    .foregroundColor(headerTextColor)
+                    .font(.system(size: 20))
+                Spacer()
+                Spacer()
+                Spacer()
+                
+                Image("Basketball Image Header")
+                    .resizable()
+                    .frame(width: 50, height: 50)
+                    .aspectRatio(contentMode: .fit)
+                Spacer()
+            }
+            .padding()
+            
+            Spacer()
         }
         .padding()
+        .background(backgroundColor)
+        
     }
 }
 
