@@ -14,6 +14,8 @@
 		75B495A52B172FAF00653A44 /* Bruins_BasketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B495A42B172FAF00653A44 /* Bruins_BasketballTests.swift */; };
 		75B495AF2B172FAF00653A44 /* Bruins_BasketballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B495AE2B172FAF00653A44 /* Bruins_BasketballUITests.swift */; };
 		75B495B12B172FAF00653A44 /* Bruins_BasketballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B495B02B172FAF00653A44 /* Bruins_BasketballUITestsLaunchTests.swift */; };
+		75C0CEE62B17E1E6005B99A0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0CEE52B17E1E6005B99A0 /* HeaderView.swift */; };
+		75C0CEE82B17E6EA005B99A0 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0CEE72B17E6EA005B99A0 /* StatisticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		75B495AA2B172FAF00653A44 /* Bruins BasketballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bruins BasketballUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B495AE2B172FAF00653A44 /* Bruins_BasketballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bruins_BasketballUITests.swift; sourceTree = "<group>"; };
 		75B495B02B172FAF00653A44 /* Bruins_BasketballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bruins_BasketballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75C0CEE52B17E1E6005B99A0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		75C0CEE72B17E6EA005B99A0 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				75B495932B172FAD00653A44 /* Bruins_BasketballApp.swift */,
 				75B495952B172FAD00653A44 /* ContentView.swift */,
+				75C0CEE52B17E1E6005B99A0 /* HeaderView.swift */,
+				75C0CEE72B17E6EA005B99A0 /* StatisticsView.swift */,
 				75B495972B172FAF00653A44 /* Assets.xcassets */,
 				75B495992B172FAF00653A44 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B495962B172FAD00653A44 /* ContentView.swift in Sources */,
+				75C0CEE82B17E6EA005B99A0 /* StatisticsView.swift in Sources */,
+				75C0CEE62B17E1E6005B99A0 /* HeaderView.swift in Sources */,
 				75B495942B172FAD00653A44 /* Bruins_BasketballApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
