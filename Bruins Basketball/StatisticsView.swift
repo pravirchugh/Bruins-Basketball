@@ -32,13 +32,14 @@ struct StatisticsView: View {
             .buttonStyle(.bordered)
             .padding(.bottom, 40)
             
-            
+            // this is where the change betwen the two views occurs.
             if (selectedButton == 1){
                 Text("Upcoming Games")
                     .foregroundColor(headerTextColor)
             } else {
                 Text("Top Scoring Players")
                     .foregroundColor(headerTextColor)
+                PlayerView()
             }
             
             Spacer()
