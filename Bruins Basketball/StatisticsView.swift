@@ -36,6 +36,7 @@ struct StatisticsView: View {
             if (selectedButton == 1){
                 Text("Upcoming Games")
                     .foregroundColor(headerTextColor)
+                GameView()
             } else {
                 Text("Top Scoring Players")
                     .foregroundColor(headerTextColor)
