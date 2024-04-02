@@ -45,7 +45,7 @@ struct GameView: View {
                     .resizable()
                     .frame(width: 50, height: 50)
                     .aspectRatio(contentMode: .fit)
-                
+                Spacer()
                 
                 VStack {
                     
@@ -70,6 +70,11 @@ struct GameView: View {
                             .font(.system(size: 14))
                             .fontWeight(.bold)
                             .underline(false, color: headerTextColor)
+                        
+                        Text(" at ")
+                            .foregroundColor(headerTextColor)
+                            .font(.system(size: 12))
+                        
                         
                         Text(upcomingGames[i].time)
                             .foregroundColor(headerTextColor)
